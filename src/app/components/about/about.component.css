@@ -1,0 +1,45 @@
+main {
+    background-color: #1ABC9C;
+    margin-top: 5.375rem;
+    min-height: calc(-106px + 100vh);
+}
+
+main div .title h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3rem;
+
+    margin-bottom: 1rem;
+}
+
+main div .title .icon::before {
+    content: '';
+
+    width: 80px;
+    height: 4px;
+    background-color: #fff;
+
+    position: absolute;
+    top: 50%;
+    left: 24%;
+
+    transform: translateY(-50%);
+}
+
+main div .title .icon::after {
+    content: '';
+
+    width: 80px;
+    height: 4px;
+    background-color: #fff;
+
+    position: absolute;
+    top: 50%;
+    right: 24%;
+
+    transform: translateY(-50%);
+}
+
+main .row {
+    width: 87%;
+}

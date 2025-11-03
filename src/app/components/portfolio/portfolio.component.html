@@ -1,0 +1,51 @@
+<main>
+    <div class="heading pt-5 text-center position-relative">
+        <h2>PORTFOLIO COMPONENT</h2>
+        <div class="icon d-flex justify-content-center aligite mb-3 position-relative"><i class="fa-solid fa-star"></i>
+        </div>
+    </div>
+
+    <div class="container mb-4">
+        <div class="row g-5">
+            <div class="col-md-6 col-lg-4">
+                <div (click)="onClick()" class="card-item position-relative">
+                    <img class="w-100 rounded-3" src="/images/imgi_1_poert1.png" alt="Home">
+                    <div class="layer"><i class="fa-solid fa-plus text-white fa-6x"></i></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div (click)="onClick()" class="card-item position-relative">
+                    <img class="w-100 rounded-3" src="/images/imgi_2_port2.png" alt="Pizza Slice">
+                    <div class="layer"><i class="fa-solid fa-plus text-white fa-6x"></i></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div (click)="onClick()" class="card-item position-relative">
+                    <img class="w-100 rounded-3" src="/images/imgi_3_port3.png" alt="Circus">
+                    <div class="layer"><i class="fa-solid fa-plus text-white fa-6x"></i></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div (click)="onClick()" class="card-item position-relative">
+                    <img class="w-100 rounded-3" src="/images/imgi_1_poert1.png" alt="Home">
+                    <div class="layer"><i class="fa-solid fa-plus text-white fa-6x"></i></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div (click)="onClick()" class="card-item position-relative">
+                    <img class="w-100 rounded-3" src="/images/imgi_2_port2.png" alt="Pizza Slice">
+                    <div class="layer"><i class="fa-solid fa-plus text-white fa-6x"></i></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div (click)="onClick()" class="card-item position-relative">
+                    <img class="w-100 rounded-3" src="/images/imgi_3_port3.png" alt="Circus">
+                    <div class="layer"><i class="fa-solid fa-plus text-white fa-6x"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div (click)="onClick()" class="light-container" [class.d-none]="flag">
+        <img src="/images/imgi_1_poert1.png" alt="Home">
+    </div>
+</main>

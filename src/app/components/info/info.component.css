@@ -1,0 +1,26 @@
+main {
+    background-color: #2C3E50;
+    padding: 2.5rem;
+}
+
+main .container .row .card-item .inner h3 {
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 2.125rem;
+
+    padding-top: 1.25rem;
+}
+
+main .container .row .card-item .inner .icons .icon {
+    width: 2.35rem;
+    height: 2.35rem;
+
+    border: .0625rem solid #fff;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 .25rem;
+}

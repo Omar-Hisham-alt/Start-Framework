@@ -1,0 +1,75 @@
+main {
+    margin-top: 5.375rem;
+    min-height: calc(-106px + 100vh);
+}
+
+main .heading h2 {
+    color: #2c3e50;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3rem;
+
+    margin-bottom: 1rem;
+    padding-top: .375rem;
+}
+
+main .heading .icon i {
+    color: #2C3E50;
+}
+
+main .heading .icon::before {
+    content: '';
+
+    width: 80px;
+    height: 4px;
+    background-color: #2C3E50;
+
+    position: absolute;
+    top: 50%;
+    left: 43.1%;
+
+    transform: translateY(-50%);
+}
+
+main .heading .icon::after {
+    content: '';
+
+    width: 80px;
+    height: 4px;
+    background-color: #2C3E50;
+
+    position: absolute;
+    top: 50%;
+    right: 43.1%;
+
+    transform: translateY(-50%);
+}
+
+main .container .form {
+    width: 58.7%;
+}
+
+main .container .form .input {
+    margin: 30px 0;
+}
+
+main .container .form input {
+    border: 0;
+    border-bottom: .0625rem solid #dee2e6;
+}
+
+main .container .form .form-control:focus {
+    box-shadow: none;
+}
+
+main .container .form label {
+    color: #1abc9c;
+    margin-bottom: .4375rem;
+    position: absolute;
+
+    transition: 0.6s top;
+}
+
+main .container .form button {
+    background-color: #1abc9c;
+}

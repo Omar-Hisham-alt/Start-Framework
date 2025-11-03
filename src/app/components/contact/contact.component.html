@@ -1,0 +1,39 @@
+<main class="mb-4">
+    <div class="heading pt-5 text-center position-relative">
+        <h2>CONTACT SECTION</h2>
+        <div class="icon d-flex justify-content-center aligite position-relative"><i class="fa-solid fa-star"></i>
+        </div>
+    </div>
+
+    <div class="container pt-3">
+        <div class="form mx-auto p-3 mt-4">
+            <div class="input position-relative">
+                <label [style.top]="nameFlag ? '0' : '-30px'" for="userName">userName :</label>
+                <input [(ngModel)]="nameInput" (input)="nameTyping()" id="userName"
+                    class="form-control py-3 position-relative" type="text" placeholder="userName">
+            </div>
+
+            <div class="input position-relative">
+                <label [style.top]="ageFlag ? '0' : '-30px'" for="userAge">userAge :</label>
+                <input [(ngModel)]="ageInput" (input)="ageTyping()" id="userAge"
+                    class="form-control py-3 position-relative" type="text" placeholder="userAge">
+            </div>
+
+            <div class="input position-relative">
+                <label [style.top]="emailFlag ? '0' : '-30px'" for="userEmail">userEmail
+                    :</label>
+                <input [(ngModel)]="emailInput" (input)="emailTyping()" id="userEmail"
+                    class="form-control py-3 position-relative" type="email" placeholder="userEmail">
+            </div>
+
+            <div class="input position-relative mb-0">
+                <label [style.top]="passwordFlag ? '0' : '-30px'"
+                    for="userPassword">userPassword :</label>
+                <input [(ngModel)]="passwordInput" (input)="passwordTyping()" id="userPassword"
+                    class="form-control py-3 position-relative" type="password" placeholder="userPassword">
+            </div>
+
+            <button class="btn text-white mt-4">send Message</button>
+        </div>
+    </div>
+</main>
